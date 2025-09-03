@@ -1,72 +1,65 @@
-# ecommerce-coÍndice Práctico para Proyecto de Ciencia de Datos
+Índice Modelo Estándar para Proyectos
 
 Introducción
-
-Problema a resolver
-
-Objetivos del proyecto
-
-Herramientas utilizadas
+1.1. Planteamiento del problema
+1.2. Objetivos del proyecto
+1.3. Alcance y limitaciones
+1.4. Herramientas utilizadas
 
 Fortalezas del Trabajo
+2.1. Aspectos destacados del proceso
+2.2. Buenas prácticas aplicadas
+2.3. Cumplimiento de criterios de evaluación
 
-Aspectos destacados
-
-Buenas prácticas aplicadas
-
-Exploración de los Datos
-
-Descripción general del dataset
-
-Revisión de atributos (shape, info, describe)
-
-Valores nulos y outliers
-
-Correlaciones
-
-Visualizaciones principales
+Carga y Exploración de los Datos
+3.1. Descripción del dataset
+3.2. Revisión de atributos (shape, info(), describe())
+3.3. Análisis de valores nulos y outliers
+3.4. Correlaciones entre variables
+3.5. Visualizaciones (pie chart, countplots, boxplots, heatmaps)
 
 Preprocesamiento y Feature Engineering
+4.1. Eliminación de columnas irrelevantes
+4.2. Transformación de variables categóricas (get_dummies)
+4.3. Escalado de datos (MinMaxScaler / StandardScaler)
+4.4. Selección de variables significativas (chi-cuadrado)
+4.5. Comparación del dataset antes y después del preprocesamiento
 
-Eliminación de columnas irrelevantes
+Implementación de Modelos
+5.1. SVM (Support Vector Machine)
+- Kernel utilizado (RBF)
+- Ajuste de hiperparámetros (C=5)
+- Métricas de evaluación (recall vs precisión)
+5.2. Random Forest
+- GridSearchCV y optimización de parámetros
+- Interpretación de importancia de variables
+5.3. Red Neuronal Artificial (ANN)
+- Arquitectura de la red (mínimo 3 capas ocultas)
+- Configuración del entrenamiento (épocas, batch size, optimizador)
+- Resultados de desempeño
 
-Transformación de variables categóricas
-
-Escalado de datos
-
-Selección de variables significativas
-
-Comparación antes y después del preprocesamiento
-
-Modelado
-
-Support Vector Machine (SVM)
-
-Random Forest
-
-Red Neuronal Artificial (ANN)
+Tareas NLP (si aplica)
+6.1. Vectorización (TF-IDF, Bag of Words, etc.)
+6.2. Análisis de sentimiento u otra tarea de procesamiento de texto
+6.3. Visualizaciones de soporte (nubes de palabras, gráficos comparativos)
 
 Resultados y Comparación de Modelos
-
-Métricas de desempeño (accuracy, recall, F1, etc.)
-
-Variables más influyentes
-
-Comparativa entre SVM, RF y ANN
+7.1. Métricas de desempeño (accuracy, precision, recall, F1-score, AUC)
+7.2. Comparativa entre SVM, RF y ANN
+7.3. Interpretación de las variables más influyentes
 
 Conclusiones y Trabajo Futuro
+8.1. Principales hallazgos
+8.2. Fortalezas y debilidades de los modelos implementados
+8.3. Posibles mejoras (más capas en redes, tuning adicional, más datos)
+8.4. Relevancia de los resultados para el problema planteado
 
-Hallazgos principales
-
-Fortalezas y limitaciones de los modelos
-
-Posibles mejoras
-
-Referencias
+Referencias Bibliográficas
 
 Anexos
 
 Código fuente
 
-Gráficos y tablas adicionalesnsumer-behavior
-Exploración y modelado del comportamiento del consumidor en ecommerce: cohortes, RFM, funnels, A/B testing, predicción de churn y LTV con Python/SQL.
+Gráficos complementarios
+
+Tablas de resultados adicionales
